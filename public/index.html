@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0, user-scalable=no">
+    <link rel="icon" href="<%= BASE_URL %>favicon.png">
+    <title></title>
+    <script src='//cdn.hellobike.com/npm/@hb/tianqi@5.x.x/lib/ubt.h5.js'></script>
+  </head>
+  <body>
+    <div id="fullWidth" style="width:100vw"></div>
+    <div id="remWidth" style="width:3.75rem"></div>
+    <noscript>
+      <strong>We're sorry but H5Template doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app">
+      <div style="background: url('data:image/png;base64,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') no-repeat center;
+                  background-size: contain;
+                  position: fixed;left: 50%;top: 50%;
+                  -webkit-transform: translate3d(-50%,-100%,0);
+                  transform: translate3d(-50%,-100%,0);
+                  width: 200px; height: 40px;">
+      </div>
+    </div>
+    <!-- built files will be auto injected -->
+    <script>
+      // if (navigator.userAgent.indexOf('AlipayClient') > -1) {
+      //   document.writeln('<script src="https://appx/web-view.min.js"' + '>' + '<' + '/' + 'script>');
+      // }
+
+      var fixFontSize = function(unit) {
+        setTimeout(function() {
+          window.unit = unit / (document.querySelector('#remWidth').offsetWidth /
+            document.querySelector('#fullWidth').offsetWidth);
+          document.documentElement.style.fontSize = window.unit + 'px';
+        }, 0);
+      };
+
+      var getUnit = function() {
+        return 100 * (750 ? Math.min(750, innerWidth) : innerWidth) / 375;
+      };
+
+      //设置更目录字体 1rem 对应100px
+      document.documentElement.style.fontSize = getUnit() + 'px'
+      fixFontSize(getUnit());
+      addEventListener('load', function() {
+        setTimeout(function(){
+          window.unit = getUnit();
+          document.documentElement.style.fontSize = window.unit + 'px'
+          var e = document.createEvent('Event');
+          e.initEvent('adjustReady', true, true);
+          window.dispatchEvent(e);
+          fixFontSize(window.unit);
+        }, 480);
+      })
+      addEventListener('orientationchange', function() {
+          setTimeout(function(){
+            document.documentElement.style.fontSize = 100 * (750 ? Math.min(750, innerWidth) : innerWidth) / 375 + 'px';
+          }, 480)
+      });
+
+      window.requestAnimFrame = (function() {
+        return window.requestAnimationFrame ||
+          window.webkitRequestAnimationFrame ||
+          window.mozRequestAnimationFrame ||
+          function(callback) {
+              window.setTimeout(callback, 1000 / 60);
+          };
+      })();
+    </script>
+  </body>
+</html>
